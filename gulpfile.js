@@ -26,7 +26,7 @@ var gulp = require('gulp'),
 	watch = require('gulp-watch');
 
 gulp.task('logar', function () {
-	console.log('logar');
+	console.log('logar x');
 });
 
 gulp.task('serve', function () {
