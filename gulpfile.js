@@ -30,6 +30,7 @@ gulp.task('logar', function () {
 });
 
 gulp.task('serve', function () {
+	connect.serverClose();
 	connect.server({
 		root: 'app',
 		host: '0.0.0.0',
