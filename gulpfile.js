@@ -33,7 +33,7 @@ gulp.task('serve', function () {
 	connect.server({
 		root: 'app',
 		host: '0.0.0.0',
-		port: 42125
+		port: 41126
 	});
 });
 
